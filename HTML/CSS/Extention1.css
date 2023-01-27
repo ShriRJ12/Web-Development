@@ -1,0 +1,12 @@
+h1{
+    color:rgb(81, 20, 137);
+    text-align: inherit;
+}
+ul{
+    color:rgb(140, 40, 56);
+    text-align:left;
+}
+ol{
+    color:cornflowerblue;
+    text-align:left;
+}

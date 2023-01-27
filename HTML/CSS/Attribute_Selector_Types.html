@@ -1,0 +1,51 @@
+
+
+<!--
+<!DOCTYPE html>
+<html>
+    <head><Title>Attribute Selector Types</Title>
+    <Style>
+       /* P[class="abc"]{
+            color:blueviolet;
+            background-color: aqua;
+        }
+       */
+        a[target="_blank"]
+        {
+            background-color:cornflowerblue;
+        }
+        */
+    </Style>
+</head>
+    <body>
+        <p class="abc">Hello ECSians</p>
+        <p class="A">Hello ECSians</p>
+        <a href="../HTML/Table.html">Table</a>
+        <a href="../HTML/List.html" target="_blank">List</a>
+    </body>
+</html>
+-->
+
+<!--Type of Selector "~" and "|"-->
+<!Doctype html>
+<html>
+    <head>
+        <title>Att_Selector_Types</title>
+        <Style>            
+            P[class*="Animal"]{
+                color: darkred;
+                text-align: center;
+        }
+        </Style>
+    </head>
+    <body>
+        
+        
+        <p class="wildAnimal">This is wildanimal</p>
+        <p class="Animal">This is animal</p>
+        <p class="abc">abc</p>
+        <p class="Animal-Lover"> Animal-Lover</p>
+        <p class="Pet Animal lover ">Pet Animal</p>
+
+    </body>
+</html>
